@@ -8,12 +8,12 @@
 # license agreement from NVIDIA Corporation is strictly prohibited.
 #################################################################################
 
-CUDA_VER?=
+CUDA_VER:=11.4
 ifeq ($(CUDA_VER),)
   $(error "CUDA_VER is not set")
 endif
 
-NVDS_VERSION?=
+NVDS_VERSION:=6.3
 ifeq ($(NVDS_VERSION),)
   $(error "NVDS_VERSION is not set")
 endif
